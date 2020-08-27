@@ -1,0 +1,265 @@
+/*~~~~~~~~~~~~~~~~~Global Settings~~~~~~~~~~~*/
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+/*----------------------------*/
+/*scroll bar 
+------------------------------*/
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: black;
+}
+::-webkit-scrollbar-track{
+	background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #2531EC;
+}
+
+/*----------------------*/
+/*nav search bar
+-------------------------*/
+#nav-search{
+	width: 80%;
+	height: 40px;
+	padding: 10px;
+	background-color: #343A40;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	color: white;
+}
+
+#nav-search:focus{
+	outline: none;
+}
+
+
+#nav-submit{
+	background-color: #343A40;
+	border: none;
+	cursor: pointer;
+}
+
+#nav-submit:focus{
+	outline: none;
+}
+
+#nav-submit i{
+	color: #2531EC;
+	font-size: 25px;
+}
+
+#slider li a{
+	font-family: cursive;
+}
+/*login form*/
+
+.tab-pane h1{
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+.tab-pane label{
+	color: #9597A7;
+}
+
+.tab-pane input{
+	width: 90%;
+	height: 40px;
+	background-color: #D5D7DE;
+	color: black;
+}
+
+.tab-pane input:focus{
+	box-shadow: none;
+	border: 2px solid #717790;
+}
+#login-btn{
+	margin-left: 30%;
+	background-color: #2FB45A;
+	width: 150px; 
+	color: black;
+}
+#signup-btn{
+	background-color: #16C60C;
+	width: 150px; 
+	color: black;
+}
+#login-btn,#forgot-btn:focus{
+	box-shadow: none;
+}
+
+#forgot-btn{
+	background-color: none;
+	border: none;
+	color: #60B5F0;
+}
+
+#sign-up button:focus{
+	box-shadow: none;
+}
+#sign-up button:hover{
+	letter-spacing: 3px;
+}
+
+#sign-up p{
+	color: black;
+}
+
+/*-------------------------*/
+/*links
+------------------------*/
+
+#link{
+	position: fixed;
+	right: 0;
+	top: 30%;
+	padding: 20px;
+}
+#link li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+#link li a {
+	font-size: 35px;
+	color: #2531EC;
+}
+#link li a:hover{
+	color:  black;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+/*-----------------------------*/
+/*courses
+------------------------------*/
+.complite-courses h2{
+	color: #47535E;
+	font-family: sans-serif;
+	font-size: 22px;
+	margin-top: 30px;
+}
+
+.complite-courses img{
+	box-shadow: 0px 4px 8px 0px grey;
+}
+
+#courses-head {
+  
+  background: -webkit-linear-gradient(#eee, #289DA0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*--------------------------------*/
+/*companies
+----------------------------------*/
+#companie-head {
+ /* font-size: 72px;*/
+  background: -webkit-linear-gradient(#0BB5E5, #28F39A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-body h4{
+	color: white;
+}
+
+.card-body p{
+	 background: -webkit-linear-gradient(#FFFFFF, #28F39A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-body hr{
+	border-top: 0.1px solid white;
+}
+.card-body i{
+	color: white;
+}
+
+.card{
+	border: 2px solid white;
+}
+
+/*--------------------------*/
+/*instractor box
+---------------------------*/
+#instructor-box h1{
+	 background: -webkit-linear-gradient(#C32B20, #C95C2D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#instructor-box p{
+	color: white;
+	font-family: cursive;
+}
+
+#instructor-box button{
+	width: 150px;
+	height: 50px;
+	background-color: #191919;
+	border: 2px solid white;
+}
+#instructor-box button a{
+	color: white;
+}
+
+hr{
+	border-top: 1px dashed #ddd;
+}
+
+#our-info h1{
+	padding: 0;
+	margin: 0;
+	background: -webkit-linear-gradient(#C32B20, #C95C2D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+#our-info h4{
+	padding: 0;
+	margin-bottom: 15px;
+	color: white;
+}
+
+/*--------*/
+.scrolltop{
+	bottom: 40px;
+	right: 20px;
+	position: fixed;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 7px;
+	color: #323232;
+	box-shadow: 0 0 5px grey;
+	display: none;
+}
+
+/*-------------------------*/
+/*footer about
+--------------------------*/
+#footer-about p{
+	text-align: justify;
+	line-height: 35px;
+	font-size: 18px;
+	font-family: cursive;
+}

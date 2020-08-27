@@ -1,0 +1,36 @@
+Name : Tirtharaj Jana
+ID : 1911981342
+
+Q1:
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<body>
+<p>Superscript :</p>
+<p>X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup></p>
+<p>Subscript :</p>
+<p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+</body>
+</html>
+
+Q2:
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<body>
+<p>I am</p>
+<mark>silently</mark>
+<p>correcting</p>
+<p><del>You're </del>your grammar</p>
+</body>
+</html>
+
+Q4:
+1. BR tag don,t need any close tag but P tag needs .
+2. BR is use to break the line where as P tag is use to write any paragraph
